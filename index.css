@@ -1,72 +1,54 @@
 /* IMPOSTAZIONI RESET */
 
 * {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 a {
-	color: currentColor;
-	text-decoration: none;
+    color: currentColor;
+    text-decoration: none;
 }
 
 ul,
 ol {
-	list-style: none;
+    list-style: none;
 }
 
 img {
     display: block;
     width: 100%;
-    height: 100%;
     object-fit: cover;
 }
 
 /* DEBUG */
 
 .card .debug {
-	padding: 30px 0;
+    padding: 30px 0;
 }
 
-.card .debug .row > * {
-	min-height: 200px;
+.card .debug .row>* {
+    min-height: 200px;
 }
 
-.card .debug .row > .col-33 {
-	border: 2px solid black;
-	background-color: rgb(48, 104, 46);
+.card .debug .row>.col-33 {
+    border: 2px solid black;
+    background-color: rgb(48, 104, 46);
 }
 
 
 /* IMPOSTAZIONI BASE */
 
-.main-header {
-    background-color: orange;
-    color: white;
-	padding: 16px 0;
-}
-
-
-.card {
-    background-color: white;
-    color: black;
-}
-
-footer {
-    background-color: rgb(59, 59, 59);
-    color: white;
-}
-
 h2 {
     font-size: 10px;
 }
 
-h1{
+h1 {
     font-size: 10px;
 }
 
-span{
+span {
     font-size: 10px;
 }
 
@@ -74,7 +56,38 @@ span{
     color: red;
 }
 
-.container{
+/* header */
+
+.main-header {
+    background-color: orange;
+    color: white;
+    padding: 16px 0;
+}
+
+.navbar .menu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 5px;
+    align-items: center;
+    padding: 0 70px;
+}
+
+
+.logo {
+    display: flex;
+    width: 90px;
+}
+
+.icon {
+    display: flex;
+    width: 15px;
+}
+
+
+/* main */
+
+.container {
     max-width: 900px;
     margin: 0 auto;
 }
@@ -96,15 +109,32 @@ span{
 }
 
 .justify-between {
-	justify-content: space-between;
+    justify-content: space-between;
 }
 
 
-.navbar .menu {
-	display: flex;
-	gap: 16px;
-	align-items: center;
+.card {
+    background-color: white;
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
+
+/* footer */
+
+footer {
+    background-color: rgb(59, 59, 59);
+    color: white;
+    padding: 20px 0;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
 
 /* ICONE IN POSIZIONE */
 
@@ -145,7 +175,7 @@ span{
     z-index: 999;
 }
 
-.eco-2{
+.eco-2 {
     width: 60px;
     height: 15px;
     text-align: center;
