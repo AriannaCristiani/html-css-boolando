@@ -63,7 +63,7 @@ h2 {
 }
 
 h1{
-    font-size: 15px;
+    font-size: 10px;
 }
 
 span{
@@ -83,6 +83,7 @@ span{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    position: relative;
 }
 
 
@@ -90,6 +91,8 @@ span{
     width: 250px;
     height: 350px;
     margin-bottom: 60px;
+    padding: 5px 5px;
+    position: relative;
 }
 
 .justify-between {
@@ -103,3 +106,15 @@ span{
 	align-items: center;
 }
 
+/* ICONE IN POSIZIONE */
+
+.favourite {
+    width: 20px;
+    height: 20px;
+    padding: 2px 2px;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    left: 225px;
+    z-index: 999;
+}
