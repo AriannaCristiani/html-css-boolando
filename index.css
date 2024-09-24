@@ -34,7 +34,6 @@ img {
 }
 
 .card .debug .row > .col-33 {
-    margin: 5px;
 	border: 2px solid black;
 	background-color: rgb(48, 104, 46);
 }
@@ -59,7 +58,21 @@ footer {
     color: white;
 }
 
+h2 {
+    font-size: 10px;
+}
 
+h1{
+    font-size: 15px;
+}
+
+span{
+    font-size: 10px;
+}
+
+.red {
+    color: red;
+}
 
 .container{
     max-width: 900px;
@@ -76,6 +89,7 @@ footer {
 .col-33 {
     width: 250px;
     height: 350px;
+    margin-bottom: 60px;
 }
 
 .justify-between {
